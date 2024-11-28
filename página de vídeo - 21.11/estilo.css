@@ -1,0 +1,73 @@
+#secao-video {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+#titulodovideo {
+    color: black;
+    margin-left: 40px;
+}
+
+.dexter {
+    color: #ffffff;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textovideo {
+    display: flex;
+    align-items: justify;
+    font-size: 20px;
+}
+
+#texto {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#carrosel {
+    background-color: #ffffff;
+    padding: 50px 0;
+
+    text-align: center;
+    color: #ffffff;
+}
+
+#play {
+    color: #ffffff;
+}
+
+#cards {
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    margin-top: left;
+}
+
+#setaesquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateX(7px);
+    transition: 0.5s;
+}
